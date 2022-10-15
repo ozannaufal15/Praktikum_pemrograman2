@@ -1,8 +1,5 @@
 package PRAK202_2110817310005_MuhammadFauzanNaufalRidho;
 
-import java.text.NumberFormat;
-import java.util.Locale;
-
 public class Mobil {
     String merek;
     String tahun_keluaran;
@@ -20,11 +17,12 @@ public class Mobil {
         return this.pemilik;
     }
     public String getPajak(){
-        return NumberFormat.getNumberInstance(Locale.US).format((this.harga/100)*2);
+        return String.format("%,d", (this.harga/100)*2);
+        //return NumberFormat.getNumberInstance(Locale.US).format((this.harga/100)*2);
     }
     public void info(){
         System.out.println("Merek Mobil: "+this.merek);
-        System.out.println("Harga: RP. "+NumberFormat.getNumberInstance(Locale.US).format(this.harga));
+        System.out.println("Harga: RP. "+String.format("%,d", this.harga));
         System.out.println("Kapasitas: "+this.kapasitas+"cc");
     }
 }
