@@ -18,7 +18,6 @@ public class Mobil {
     }
     public String getPajak(){
         return String.format("%,d", (this.harga/100)*2);
-        //return NumberFormat.getNumberInstance(Locale.US).format((this.harga/100)*2);
     }
     public void info(){
         System.out.println("Merek Mobil: "+this.merek);

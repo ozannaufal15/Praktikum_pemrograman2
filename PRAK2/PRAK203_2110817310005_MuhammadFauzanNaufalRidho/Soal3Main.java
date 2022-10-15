@@ -15,7 +15,16 @@ public class Soal3Main {
         System.out.println("Nama Pegawai: " + p1.getNama());
         System.out.println("Asal: " + p1.getAsal());
         System.out.println("Jabatan: " + p1.jabatan);
-        System.out.println("Umur: " + p1.umur);
+        /*
+         * Field umur object p1 belum diinisialisasi
+         * sehingga p1.umur nilainya 0
+         * dan pada println ditambahkan " Tahun" setelah p1.umur
+         * agar output program sama seperti
+         * yang diminta
+         */
+        //System.out.println("Umur: " + p1.umur);
+        p1.umur=17;
+        System.out.println("Umur: "+p1.umur+" Tahun");
     }
 }
 

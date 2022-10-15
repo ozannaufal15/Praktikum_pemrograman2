@@ -1,6 +1,12 @@
  
 package PRAK203_2110817310005_MuhammadFauzanNaufalRidho;
 
+/* 
+ * Nama class tidak sesuai dengan nama file
+ * nama file adalah Pegawai.java
+ * sehingga nama class seharusnya juga Pegawai
+*/
+//public class Employee {
 public class Pegawai {
     public String nama;
     /*
@@ -22,6 +28,7 @@ public class Pegawai {
     /*
      * Pada baris ini terjadi error karena method dipanggil dengan
      * argumen namun pada definisi method tidak memiliki parameter
+     * dan variabel j tidak pernah dideklarasikan
      */
     //public void setJabatan() {
     //this.jabatan = j;
