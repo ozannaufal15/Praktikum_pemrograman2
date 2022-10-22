@@ -19,7 +19,6 @@ public class Negara {
         this.bulanMerdeka=bulanMerdeka;
         this.tahunMerdeka=tahunMerdeka;
         initialBulan();
-
     }
     public Negara(String nama,String jenisKepemimpinan,String namaPemimpin){
         this.nama=nama;

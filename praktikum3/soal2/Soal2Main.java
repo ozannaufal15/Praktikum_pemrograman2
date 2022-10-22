@@ -3,7 +3,6 @@ package praktikum3.soal2;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-
 public class Soal2Main {
     static Scanner input=new Scanner(System.in);
     public static void main(String[] args) {
