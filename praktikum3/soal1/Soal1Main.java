@@ -9,19 +9,25 @@ public class Soal1Main {
         LinkedList<Dadu> semuaDadu=new LinkedList<Dadu>();
         int n=input.nextInt();
         int jumlah=0;
+        int temp;
+        Dadu tempDadu;
         System.out.println("=======");
         for(int i=0;i<n;i++){
-            semuaDadu.add(new Dadu());
-            semuaDadu.getLast().acakNilai();
+            tempDadu=new Dadu();
+            tempDadu.acakNilai();
+            semuaDadu.add(tempDadu);
+            //semuaDadu.getLast().acakNilai();
             //System.out.println(semuaDadu.getLast().getValue());
             
         }
-        for(int i=0;i<semuaDadu.size();i++){
-            System.out.println("Dadu ke-"+(i+1)+" bernilai "+semuaDadu.get(i).getValue());
-            jumlah+=semuaDadu.get(i).getValue();
+        for(int i=0;i<n;i++){
+            temp=semuaDadu.poll().getValue();
+            System.out.println("Dadu ke-"+(i+1)+" bernilai "+temp);
+            //System.out.println(semuaDadu.peek());
+            jumlah+=temp;
         }
         System.out.println("Total nilai dadu keseluruhan "+jumlah);
-
+        //semuaDadu.
         input.close();
     }
 }
