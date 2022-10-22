@@ -16,7 +16,7 @@ public class Negara {
         this.jenisKepemimpinan=jenisKepemimpinan;
         this.namaPemimpin=namaPemimpin;
         this.tanggalMerdeka=tanggalMerdeka;
-        this.bulanMerdeka=Integer.valueOf(bulanMerdeka);
+        this.bulanMerdeka=bulanMerdeka;
         this.tahunMerdeka=tahunMerdeka;
         initialBulan();
 

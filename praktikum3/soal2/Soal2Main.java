@@ -9,7 +9,6 @@ public class Soal2Main {
     public static void main(String[] args) {
         LinkedList<Negara> semuaNegara=new LinkedList<Negara>();
         int n;
-        System.out.println("1");
         n=input.nextInt();
         input.nextLine();
         for(int i=0;i<n;i++){
