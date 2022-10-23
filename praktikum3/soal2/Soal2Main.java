@@ -30,7 +30,7 @@ public class Soal2Main {
         jenisKepemimpinan=input.nextLine();
         namaPemimpin=input.nextLine();
         if(Negara.isMonarki(jenisKepemimpinan)){
-            return new Negara(nama,jenisKepemimpinan,namaPemimpin);
+            return new Negara(nama, jenisKepemimpinan, namaPemimpin);
         }
         tanggalMerdeka=input.nextInt();
         input.nextLine();
@@ -38,6 +38,6 @@ public class Soal2Main {
         input.nextLine();
         tahunMerdeka=input.nextInt();
         input.nextLine();
-        return new Negara(nama,jenisKepemimpinan,namaPemimpin,tanggalMerdeka,bulanMerdeka,tahunMerdeka);
+        return new Negara(nama, jenisKepemimpinan, namaPemimpin, tanggalMerdeka, bulanMerdeka, tahunMerdeka);
     }
 }
