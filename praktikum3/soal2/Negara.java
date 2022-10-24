@@ -94,6 +94,7 @@ public class Negara {
         System.out.print(" bernama ");
         System.out.print(namaPemimpin+"\n");
         if (isMonarki(this.jenisKepemimpinan)){
+            System.out.print("\n");
             return;
         }
         System.out.print("Deklarasi Kemerdekaan pada Tanggal ");
