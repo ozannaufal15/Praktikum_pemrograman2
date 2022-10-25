@@ -10,11 +10,8 @@ public class Soal1Main {
         int n=input.nextInt();
         int jumlah=0;
         int temp;
-        Dadu tempDadu;
         for(int i=0;i<n;i++){
-            tempDadu=new Dadu();
-            tempDadu.acakNilai();
-            semuaDadu.add(tempDadu);
+            semuaDadu.add(new Dadu());
         }
         for(int i=0;i<n;i++){
             temp=semuaDadu.poll().getValue();
