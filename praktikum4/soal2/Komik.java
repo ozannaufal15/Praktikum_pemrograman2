@@ -16,7 +16,7 @@ public class Komik extends Buku{
         + this.judul + "\". Komik tersebut dibuat oleh "
         + this.penulis + " dan diterbitkan pada tahun "
         + this.tahun + ". Sampai saat ini komik tersebut"
-        + " memiliki jumlah volume sebanyak" + this.volume
+        + " memiliki jumlah volume sebanyak " + this.volume
         + " buah.\n"
         + "Sinopsis : " + this.sinopsis;
     }
