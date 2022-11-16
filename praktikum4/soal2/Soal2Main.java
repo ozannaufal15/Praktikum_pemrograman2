@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Soal2Main {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        Buku buku1;
         System.out.println("Pilih buku yang ingin diinputkan:");
         System.out.println("1 = Novel");
         System.out.println("2 = Komik");
@@ -24,8 +23,11 @@ public class Soal2Main {
             String genre=input.nextLine();
             System.out.print("Sinopsis: ");
             String sinopsis=input.nextLine();
+            Novel buku1;
             buku1=new Novel(judul, penulis, tahun, genre, sinopsis);
             buku1.display();
+            System.out.println(buku1.getNovelDetail());
+            System.out.println();
 
         }else if(n==2){
             System.out.print("Volume: ");
@@ -33,8 +35,11 @@ public class Soal2Main {
             input.nextLine();
             System.out.print("Sinopsis: ");
             String sinopsis=input.nextLine();
+            Komik buku1;
             buku1=new Komik(judul, penulis, tahun, volume, sinopsis);
             buku1.display();
+            System.out.println(buku1.getKomikDetail());
+            System.out.println();
         }else{
             input.close();
             return;

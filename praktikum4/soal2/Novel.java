@@ -36,15 +36,5 @@ public class Novel extends Buku{
         + this.tahun + ".\n"
         + "Sinopsis : " + this.sinopsis;
     }
-
-    @Override
-    protected void display() {
-        System.out.println();
-        System.out.println("Data yang baru diinputkan adalah");
-        System.out.println(this.getNovelDetail());
-        System.out.println();
-    }  
-
-    
     
 }

@@ -5,5 +5,8 @@ public abstract class Buku {
     protected String penulis;
     protected Integer tahun;
 
-    protected abstract void display();
+    protected void display(){
+        System.out.println();
+        System.out.println("Data yang baru diinputkan adalah");
+    }
 }

@@ -36,14 +36,5 @@ public class Komik extends Buku{
         + " buah.\n"
         + "Sinopsis : " + this.sinopsis;
     }
-
-    @Override
-    protected void display() {
-        System.out.println();
-        System.out.println("Data yang baru diinputkan adalah");
-        System.out.println(this.getKomikDetail());
-        System.out.println();
-    }  
-
     
 }
