@@ -11,6 +11,22 @@ public class Komik extends Buku{
         this.sinopsis = sinopsis;
     }
 
+    public Integer getVolume() {
+        return volume;
+    }
+
+    public void setVolume(Integer volume) {
+        this.volume = volume;
+    }
+
+    public String getSinopsis() {
+        return sinopsis;
+    }
+
+    public void setSinopsis(String sinopsis) {
+        this.sinopsis = sinopsis;
+    }
+
     public String getKomikDetail(){
         return "Sebuah komik dengan judul \""
         + this.judul + "\". Komik tersebut dibuat oleh "

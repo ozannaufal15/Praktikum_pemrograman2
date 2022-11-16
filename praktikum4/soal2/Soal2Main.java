@@ -12,7 +12,6 @@ public class Soal2Main {
         System.out.print("Masukkan pilihan: ");
         int n=input.nextInt();
         input.nextLine();
-        //////////////////////
         System.out.print("Judul: ");
         String judul=input.nextLine();
         System.out.print("Penulis: ");
@@ -40,7 +39,6 @@ public class Soal2Main {
             input.close();
             return;
         }
-        //System.out.println(buku1 instanceof Novel);
         input.close();
     }
 }
