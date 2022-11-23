@@ -2,3 +2,6 @@
 temp/
 *.class
 uts/
+.vscode/
+utspbo/
+*.zip
